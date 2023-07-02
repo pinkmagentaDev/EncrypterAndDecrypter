@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Encrypter-Decrypter</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img class="header-logo-phone" src="/images/largeKey.svg" alt="Key Logo Encrypter-Decrypter">
+  </header>
+
+  <main class="main-area">
+    <section>
+      <textarea class="main-text-area" cols="30" rows="4" placeholder="Ingrese el texto aquí"></textarea>
+      <div>
+        <p class="warning-info">
+          &#9888; Sólo letras minúsculas y sin acentos
+        </p>
+      </div>
+      <div class="buttons">
+        <button class="btn-encrypt" onclick="btnEncrypt()">
+          Encriptar
+        </button>
+        <button class="btn-decrypt" onclick="btnDecrypt()">
+          Desencriptar
+        </button>
+      </div>
+    </section>
+    <section>
+      <textarea class="text-area-message" cols="20" rows="4" placeholder="Ningún mensaje fue encontrado"></textarea>
+      <div>
+        <button class="btn-copiar" onclick="btnCopy()"">
+          Copiar
+        </button>
+      </div>
+    </section>
+
+
+  </main>
+
+  <footer>
+    Made with &#10084; by &#9993; &#32;
+    <a class=" pinkmagentamail" href="mailto:pinkmagentadev@gmail.com">Roxana Hernández &#169; 2023</a>
+  </footer>
+
+<script src=" /script.js"></script>
+
+
+</body>
+
+</html>
